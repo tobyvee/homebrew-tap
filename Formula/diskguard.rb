@@ -4,7 +4,6 @@ class Diskguard < Formula
   url "https://github.com/tobyvee/diskguard.git",
       tag:      "v1.1.0",
       revision: "6c183d97501680d33b2b09810d7d6a7d11e5922c"
-  version "1.1.0"
 
   def install
     bin.install "diskguard.sh" => "diskguard"
