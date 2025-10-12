@@ -1,9 +1,9 @@
 class Diskguard < Formula
   desc "Software based USB write blocker for MacOS"
   homepage "https://github.com/tobyvee/diskguard"
-  url "https://github.com/tobyvee/diskguard.git",
-      tag:      "v1.1.0",
-      revision: "6c183d97501680d33b2b09810d7d6a7d11e5922c"
+  url "https://github.com/tobyvee/diskguard/archive/refs/tags/v1.1.0.tar.gz",
+  sha256 "485ef0141a0f25a29e11e6fd4067996d7f49974c9cc17de661142ec636582350"
+  version "v1.1.0"
 
   def install
     bin.install "diskguard.sh" => "diskguard"
