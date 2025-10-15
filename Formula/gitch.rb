@@ -1,4 +1,4 @@
-class Diskmute < Formula
+class Gitch < Formula
   desc "Easily switch between global git user profiles"
   homepage "https://github.com/tobyvee/gitch"
   url "https://github.com/tobyvee/gitch/archive/refs/tags/v1.0.0.tar.gz"
