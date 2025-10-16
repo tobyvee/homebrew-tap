@@ -1,4 +1,4 @@
-class rndua < Formula
+class Rndua < Formula
   desc "Command line utility to generate random user agent strings"
   homepage "https://github.com/tobyvee/rndua"
   url "https://github.com/tobyvee/rndua/releases/download/v1.0.0/rndua-darwin-arm64.tar.gz"
